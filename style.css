@@ -1,1 +1,140 @@
+/* Un CSS peut-être attribué à une classe créée dans le html commence par un. */
+/* Un CSS peut-être attribué à un id créé dans le html commence par un # */
+/* Un CSS peut-être attribué à un élement html, sera non unique*/
+/* Rappel des couleurs utilisées Orange : #ED5241 Vert:#CCED40 Gris:#49515C Gris foncé Menu: #282F37 Gris clair #F4F7FB*/
 
+/* CSS attribué à certains éléments html */
+body {
+  background: #F4F7FB;
+  margin: 0px;
+}
+
+html {
+  font-size: 16px;
+  /* Taille de la police de html */
+  font-family: verdana, sans-serif;
+  font-color: #ffffff;
+}
+
+/* Calcul de la taille de la police*/
+h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+font-size: 1.45rem;  /* 1.5*14=20.3px */
+}
+
+h2 {
+font-size: 1.2rem; /* 1.2*14=16.8px */
+color: white;
+}
+
+p {
+font-size: 1rem; /* 1*14=14px */
+}
+
+em {
+font-size: 0.8rem; color: #282F37; /* 1*14=14px */
+}
+
+mark {
+background-color: #49515C;
+color: #CCED40;
+border-bottom: 5px double #CCED40;
+padding:5px;
+}
+
+
+/* Modifs bas de page */
+footer {
+font-family: verdana;
+ color: #282F37;
+width:100%;
+  font-size: 0.8em;
+  border-top: 1px;
+  align: center;
+   display: block;
+  bottom: 0; /*en bas de page */
+}
+
+/* CSS attribué au haut de page : logo */
+.ConteneurLogo {
+    background: #49515C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+
+.Logo img {
+border-right: 1px solid #FFFFFF;
+}
+
+/* CSS attribué au bas de page */
+
+.BasPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.BasPage a {
+text-decoration:none;
+color: #ED5241;
+}
+
+  
+/* CSS concernant l'accès d'authentification */
+#container {
+    width:360px;
+    margin:0 auto;
+    align: center;
+    margin-top: 20px;
+    padding :25px;
+}
+/* formulaire authentification */
+
+.Acces{
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+#container h1 {
+  font-family: sans-serif;
+  color: #white;
+  font-size: 1.5rem;
+}
+
+form {
+    width:100%;
+    padding: 25px;
+    background: #CCED40;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.24);
+}
+/* #container h1{ width: 38%; margin: 0 auto; padding-bottom: 10px;}*/
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #ED5241;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color:#ED5241;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
