@@ -1,0 +1,101 @@
+
+/* Exemple d'un formulaire de saisie d'une fiche */
+
+form.CreationFiche {
+	width:80%;
+	background-color: whitesmoke;
+}
+
+
+/* ci-dessous fonctionne*/
+.Evidence {
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+	font-size: 1rem;
+	color: white;
+	margin: 15px;
+	padding: 5px;
+	background-color: #CCED40;
+
+}
+
+/* Exemple d'une fiche Album  */
+.ContenuFicheAlbum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width:90%;
+  background-color: #F4F7FB;
+}
+
+div.ContenuFicheAlbum {
+  padding:5px;
+  background-color: #F4F7FB;
+  margin:0px;
+}
+
+ .ContenuFicheAlbum article {
+ 	background-color: white;
+ 	border: 1px solid: #000000;
+ 	border-radius: 0px;
+}
+
+ .ContenuFicheAlbum article h1 {
+ 	background-color: white;
+ 	color: orange;
+ 	font-size: 1.5rem;
+}
+
+ .ContenuFicheAlbum article h2 {
+ 	color: vhite;
+ 	font-size: 1.2rem;
+ 	margin: 15px;
+	padding: 5px;
+ 	background-color: #CCED40;
+}
+
+ .ContenuFicheAlbum article h3 {
+ 	color: white;
+ 	font-size: 1rem;
+ 	margin: 15px;
+	padding: 5px;
+ 	background-color: lightgrey;
+}
+
+ .ContenuFicheAlbum article p {
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 1rem;
+ 	margin: 20px;
+}
+ .ContenuFicheAlbum a {
+ 	background-color: white;
+ 	color: orange;
+ 	font-size: 1rem;
+}
+
+div.ContenuFicheAlbum item {
+  padding:5px;
+  background-color: white;
+  height: 300px;
+}
+div.ContenuFicheAlbum item:hover {
+  padding:5px;
+  background-color: white;
+  border: 1px solid: #F4F7FB; border-radius: 10px;
+}
+ .ContenuFicheAlbum img{height:200px; width: 200px; margin: 15px; border:1px solid #282F37;}
+
+input[type=text] {
+ width: 350px;
+}
+input[type=textarea]{
+ width: 350px;
+}
+input[type=password]{
+ width: 350px;
+}
+input[type=submit]{
+	width: 150px;
+}
+
